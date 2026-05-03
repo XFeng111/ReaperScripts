@@ -43,7 +43,7 @@ Action List
 导出设置以下四项必须如下一致（否则导入wwise会失败，其余设置无要求，导入wwise默认wav格式）：
 
 注：若遇到导出.wav不明文件，确认该组items编组中，空白item时长范围是否覆盖其余items所占时长，若未覆盖，调整空白item时长范围即可
-（常见修改资源后时长超出导致reaper渲染导出识别不到空白item的itemNote情况）
+（常见修改资源后时长超出导致reaper渲染导出识别不到空白item的$itemnotes情况）
 
 **源：主控混音**
 
