@@ -1,23 +1,12 @@
-# ReaPack Repository Template
+# ReaperScripts 工具集
 
-A template for GitHub-hosted ReaPack repositories with automated
-[reapack-index](https://github.com/cfillion/reapack-index)
-running from GitHub Actions.
+# Installation
+使用ReaPack下载，Extension > ReaPack > Import Repositories... 
 
-Replace the name of the repository in [index.xml](/index.xml) when using this template.
-This will be the name shown in ReaPack.
+https://raw.githubusercontent.com/XFeng111/ReaperScripts/refs/heads/main/index.xml
 
-```xml
-<index version="1" name="Name of your repository here">
-```
+# 欢迎投喂~
 
-Replace the contents of this file ([README.md](/README.md)).
-This will be the text shown when using ReaPack's "About this repository" feature.
-
-reapack-index looks for package files in subfolders.
-The folder tree represents the package categories shown in ReaPack.
-
-Each package file is expected to begin with a metadata header.
-See [Packaging Documentation](https://github.com/cfillion/reapack-index/wiki/Packaging-Documentation) on reapack-index's wiki.
-
-The URL to import in ReaPack is [https://github.com/`<your username>`/`<repository name>`/raw/master/index.xml](https://github.com/cfillion/reapack-repository-template/raw/master/index.xml).
+<a href="https://raw.githubusercontent.com/XFeng111/ReaperScripts/main/user-attachments/assets/%E6%AC%A2%E8%BF%8E%E6%8A%95%E5%96%82~.png" title="点击投喂">
+<img src="https://raw.githubusercontent.com/XFeng111/ReaperScripts/main/user-attachments/assets/%E6%AC%A2%E8%BF%8E%E6%8A%95%E5%96%82~.png" alt="投喂" style="width:70%;height:auto;">
+</a>

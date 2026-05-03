@@ -1,0 +1,19 @@
+-- @version 1.1.1
+-- @author XFeng111
+-- @metapackage
+-- @provides
+--    [main] ReaWwise_Import_Manage/Rea_Wwise_Import_Manage.lua
+--    [main] ReaWwise_Import_Manage/Rea_SetPath_ParentTrack.lua
+--    [main] ReaWwise_Import_Manage/Rea_ImportWwise.lua
+--    [main] ReaWwise_Import_Manage/Rea_ImportReaper.lua
+--    [main] ReaWwise_Import_Manage/Rea_GetInfo_SelectedObjects.lua
+--    [main] ReaWwise_Import_Manage/Rea_CreateStructure_items.lua
+--    [main] Reapy_Init.py
+--    [nomain] module/*.lua
+--    [projecttpl] ReaWwise_Import_Manage/ProjectTemplates/Rea_Wwise_Import_Manage.rpp > Rea_Wwise_Import_Manage.rpp
+--    [windows] UserPlugins/Win/*.dll
+--    [darwin] UserPlugins/Mac/*.dylib
+
+-- @changelog
+--    + add Preview View
+--    + change set_container(containerType, parent_path)

@@ -1,0 +1,11 @@
+-- @version 1.0.1
+-- @author XFeng111
+-- @metapackage
+-- @provides
+--    [main] Delete/*.lua
+--    [main] Items/*.lua
+--    [main] Region/*.lua
+--    [main] Rename/*.lua
+
+-- @changelog
+--    + update T_Scripts_ReaPack
