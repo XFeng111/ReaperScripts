@@ -40,9 +40,10 @@ Action List
 </a>
 
 ## 导出设置！！
-导出设置以下四项必须如下一致（否则导入wwise会失败，其余设置无要求）：
+导出设置以下四项必须如下一致（否则导入wwise会失败，其余设置无要求，导入wwise默认wav格式）：
 
-注：若遇到导出.wav不明文件，确认当前不能有任何item被选中，重新框选时间选区导一次即可（可能是reaper突然未识别到 $itemnotes，刷新下即可）
+注：若遇到导出.wav不明文件，确认该组items编组中，空白item时长范围是否覆盖其余items所占时长，若未覆盖，调整空白item时长范围即可
+（常见修改资源后时长超出导致reaper渲染导出识别不到空白item的itemNote情况）
 
 **源：主控混音**
 
@@ -170,11 +171,11 @@ Action List
 
 reapack重装最新版的ReaWwise
 
-## 导入Wwise成功了，但Wwise资源没变
+## 日志显示已执行导入Wwise，但Wwise资源没变
 检查reaper导出设置是不是勾选了重名自动递增名称，取消勾选，每次手动选覆盖（暂未找到让它自动覆盖的方法），确保导出资源在 Mixdown 文件夹下，且wav名称正确\
 原因：工具是按 "itemnotes" 的名称到当前reaper工程目录下的 \Mixdown 找 .wav文件，没找到对应名称的 .wav 资源当然导不进去
 
-## 日志显示执行导入Wwise了，没动静
+## 导入Wwise的ActorMixer路径错误
 检查Reaper轨道层级结构，父子轨的第三层wwise对象路径指定是否正确，若不正确用 [设置WwisePath] 重新设置
 
 ---
