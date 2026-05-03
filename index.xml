@@ -2,23 +2,6 @@
 <index version="1" name="XFeng111_ReaperScripts" commit="e5795eb2df3f2603a65845553317af77b7812cc1">
   <category name="T_Scripts">
     <reapack name="T_Scripts_ReaPack.lua" type="script">
-      <version name="1.0.1" author="XFeng111" time="2026-05-03T16:40:18Z">
-        <source main="main" file="Delete/T_时间选区下内容删除(含item轨道).lua">https://github.com/XFeng111/ReaperScripts/raw/4770e42be652ddd809a8e79f1ebf0924866ce1dd/T_Scripts/Delete/T_%E6%97%B6%E9%97%B4%E9%80%89%E5%8C%BA%E4%B8%8B%E5%86%85%E5%AE%B9%E5%88%A0%E9%99%A4(%E5%90%ABitem%E8%BD%A8%E9%81%93).lua</source>
-        <source main="main" file="Delete/T_时间选区下内容删除.lua">https://github.com/XFeng111/ReaperScripts/raw/4770e42be652ddd809a8e79f1ebf0924866ce1dd/T_Scripts/Delete/T_%E6%97%B6%E9%97%B4%E9%80%89%E5%8C%BA%E4%B8%8B%E5%86%85%E5%AE%B9%E5%88%A0%E9%99%A4.lua</source>
-        <source main="main" file="Delete/T_白色标记区域下所有内容删除(含item轨道).lua">https://github.com/XFeng111/ReaperScripts/raw/4770e42be652ddd809a8e79f1ebf0924866ce1dd/T_Scripts/Delete/T_%E7%99%BD%E8%89%B2%E6%A0%87%E8%AE%B0%E5%8C%BA%E5%9F%9F%E4%B8%8B%E6%89%80%E6%9C%89%E5%86%85%E5%AE%B9%E5%88%A0%E9%99%A4(%E5%90%ABitem%E8%BD%A8%E9%81%93).lua</source>
-        <source main="main" file="Delete/T_白色标记区域下所有内容删除.lua">https://github.com/XFeng111/ReaperScripts/raw/4770e42be652ddd809a8e79f1ebf0924866ce1dd/T_Scripts/Delete/T_%E7%99%BD%E8%89%B2%E6%A0%87%E8%AE%B0%E5%8C%BA%E5%9F%9F%E4%B8%8B%E6%89%80%E6%9C%89%E5%86%85%E5%AE%B9%E5%88%A0%E9%99%A4.lua</source>
-        <source main="main" file="Items/T_保存时EmptyItemSync.lua">https://github.com/XFeng111/ReaperScripts/raw/4770e42be652ddd809a8e79f1ebf0924866ce1dd/T_Scripts/Items/T_%E4%BF%9D%E5%AD%98%E6%97%B6EmptyItemSync.lua</source>
-        <source main="main" file="Items/T_选中Item淡入淡出20%.lua">https://github.com/XFeng111/ReaperScripts/raw/4770e42be652ddd809a8e79f1ebf0924866ce1dd/T_Scripts/Items/T_%E9%80%89%E4%B8%ADItem%E6%B7%A1%E5%85%A5%E6%B7%A1%E5%87%BA20%25.lua</source>
-        <source main="main" file="Items/T_选中item声像包络偏移.lua">https://github.com/XFeng111/ReaperScripts/raw/4770e42be652ddd809a8e79f1ebf0924866ce1dd/T_Scripts/Items/T_%E9%80%89%E4%B8%ADitem%E5%A3%B0%E5%83%8F%E5%8C%85%E7%BB%9C%E5%81%8F%E7%A7%BB.lua</source>
-        <source main="main" file="Region/T_region范围适应items.lua">https://github.com/XFeng111/ReaperScripts/raw/4770e42be652ddd809a8e79f1ebf0924866ce1dd/T_Scripts/Region/T_region%E8%8C%83%E5%9B%B4%E9%80%82%E5%BA%94items.lua</source>
-        <source main="main" file="Region/T_从TXT文件读取名称创建连续的regions.lua">https://github.com/XFeng111/ReaperScripts/raw/4770e42be652ddd809a8e79f1ebf0924866ce1dd/T_Scripts/Region/T_%E4%BB%8ETXT%E6%96%87%E4%BB%B6%E8%AF%BB%E5%8F%96%E5%90%8D%E7%A7%B0%E5%88%9B%E5%BB%BA%E8%BF%9E%E7%BB%AD%E7%9A%84regions.lua</source>
-        <source main="main" file="Rename/T_ 将时间选区下父级文件夹轨道的item备注设置同名.lua">https://github.com/XFeng111/ReaperScripts/raw/4770e42be652ddd809a8e79f1ebf0924866ce1dd/T_Scripts/Rename/T_%20%E5%B0%86%E6%97%B6%E9%97%B4%E9%80%89%E5%8C%BA%E4%B8%8B%E7%88%B6%E7%BA%A7%E6%96%87%E4%BB%B6%E5%A4%B9%E8%BD%A8%E9%81%93%E7%9A%84item%E5%A4%87%E6%B3%A8%E8%AE%BE%E7%BD%AE%E5%90%8C%E5%90%8D.lua</source>
-        <source main="main" file="Rename/T_ 设置item间隔1秒_轨道名称同名第一个item_每轨创建region同名.lua">https://github.com/XFeng111/ReaperScripts/raw/4770e42be652ddd809a8e79f1ebf0924866ce1dd/T_Scripts/Rename/T_%20%E8%AE%BE%E7%BD%AEitem%E9%97%B4%E9%9A%941%E7%A7%92_%E8%BD%A8%E9%81%93%E5%90%8D%E7%A7%B0%E5%90%8C%E5%90%8D%E7%AC%AC%E4%B8%80%E4%B8%AAitem_%E6%AF%8F%E8%BD%A8%E5%88%9B%E5%BB%BAregion%E5%90%8C%E5%90%8D.lua</source>
-        <source main="main" file="Rename/T_删除item符号尾缀.lua">https://github.com/XFeng111/ReaperScripts/raw/4770e42be652ddd809a8e79f1ebf0924866ce1dd/T_Scripts/Rename/T_%E5%88%A0%E9%99%A4item%E7%AC%A6%E5%8F%B7%E5%B0%BE%E7%BC%80.lua</source>
-        <source main="main" file="Rename/T_删除region符号尾缀.lua">https://github.com/XFeng111/ReaperScripts/raw/4770e42be652ddd809a8e79f1ebf0924866ce1dd/T_Scripts/Rename/T_%E5%88%A0%E9%99%A4region%E7%AC%A6%E5%8F%B7%E5%B0%BE%E7%BC%80.lua</source>
-        <source main="main" file="Rename/T_清除选中轨道名称末尾数字.lua">https://github.com/XFeng111/ReaperScripts/raw/4770e42be652ddd809a8e79f1ebf0924866ce1dd/T_Scripts/Rename/T_%E6%B8%85%E9%99%A4%E9%80%89%E4%B8%AD%E8%BD%A8%E9%81%93%E5%90%8D%E7%A7%B0%E6%9C%AB%E5%B0%BE%E6%95%B0%E5%AD%97.lua</source>
-        <source main="main" file="Rename/T_设置框选时间选区内Region名称_以items所在轨道名称.lua">https://github.com/XFeng111/ReaperScripts/raw/4770e42be652ddd809a8e79f1ebf0924866ce1dd/T_Scripts/Rename/T_%E8%AE%BE%E7%BD%AE%E6%A1%86%E9%80%89%E6%97%B6%E9%97%B4%E9%80%89%E5%8C%BA%E5%86%85Region%E5%90%8D%E7%A7%B0_%E4%BB%A5items%E6%89%80%E5%9C%A8%E8%BD%A8%E9%81%93%E5%90%8D%E7%A7%B0.lua</source>
-      </version>
       <version name="1.0.0" author="XFeng111" time="2026-05-03T16:49:31Z">
         <source main="main" file="Delete/T_时间选区下内容删除(含item轨道).lua">https://github.com/XFeng111/ReaperScripts/raw/e4028b5e57b7fbb170c76b1ef980ed127f0e2872/T_Scripts/Delete/T_%E6%97%B6%E9%97%B4%E9%80%89%E5%8C%BA%E4%B8%8B%E5%86%85%E5%AE%B9%E5%88%A0%E9%99%A4(%E5%90%ABitem%E8%BD%A8%E9%81%93).lua</source>
         <source main="main" file="Delete/T_时间选区下内容删除.lua">https://github.com/XFeng111/ReaperScripts/raw/e4028b5e57b7fbb170c76b1ef980ed127f0e2872/T_Scripts/Delete/T_%E6%97%B6%E9%97%B4%E9%80%89%E5%8C%BA%E4%B8%8B%E5%86%85%E5%AE%B9%E5%88%A0%E9%99%A4.lua</source>
@@ -40,16 +23,6 @@
   </category>
   <category name="T_Scripts/LKC_Ext">
     <reapack name="LKC_Ext_ReaPack.lua" type="script">
-      <version name="1.0.1" author="XFeng111" time="2026-05-03T16:40:18Z">
-        <source main="main" file="T_LKC_Structure_Make.lua">https://github.com/XFeng111/ReaperScripts/raw/4770e42be652ddd809a8e79f1ebf0924866ce1dd/T_Scripts/LKC_Ext/T_LKC_Structure_Make.lua</source>
-        <source main="main" file="T_LKC_Structure.lua">https://github.com/XFeng111/ReaperScripts/raw/4770e42be652ddd809a8e79f1ebf0924866ce1dd/T_Scripts/LKC_Ext/T_LKC_Structure.lua</source>
-        <source main="main" file="LKC_Ext_Steps/T_ 创建父轨region同名_时间选区.lua">https://github.com/XFeng111/ReaperScripts/raw/4770e42be652ddd809a8e79f1ebf0924866ce1dd/T_Scripts/LKC_Ext/LKC_Ext_Steps/T_%20%E5%88%9B%E5%BB%BA%E7%88%B6%E8%BD%A8region%E5%90%8C%E5%90%8D_%E6%97%B6%E9%97%B4%E9%80%89%E5%8C%BA.lua</source>
-        <source main="main" file="LKC_Ext_Steps/T_ 移入文件夹轨道（额外）.lua">https://github.com/XFeng111/ReaperScripts/raw/4770e42be652ddd809a8e79f1ebf0924866ce1dd/T_Scripts/LKC_Ext/LKC_Ext_Steps/T_%20%E7%A7%BB%E5%85%A5%E6%96%87%E4%BB%B6%E5%A4%B9%E8%BD%A8%E9%81%93%EF%BC%88%E9%A2%9D%E5%A4%96%EF%BC%89.lua</source>
-        <source main="main" file="LKC_Ext_Steps/T_Item同类分轨_时间选区.lua">https://github.com/XFeng111/ReaperScripts/raw/4770e42be652ddd809a8e79f1ebf0924866ce1dd/T_Scripts/LKC_Ext/LKC_Ext_Steps/T_Item%E5%90%8C%E7%B1%BB%E5%88%86%E8%BD%A8_%E6%97%B6%E9%97%B4%E9%80%89%E5%8C%BA.lua</source>
-        <source main="main" file="LKC_Ext_Steps/T_父轨下迭代.lua">https://github.com/XFeng111/ReaperScripts/raw/4770e42be652ddd809a8e79f1ebf0924866ce1dd/T_Scripts/LKC_Ext/LKC_Ext_Steps/T_%E7%88%B6%E8%BD%A8%E4%B8%8B%E8%BF%AD%E4%BB%A3.lua</source>
-        <source main="main" file="LKC_Ext_Steps/T_父轨设置RandomContainer_时间选区.lua">https://github.com/XFeng111/ReaperScripts/raw/4770e42be652ddd809a8e79f1ebf0924866ce1dd/T_Scripts/LKC_Ext/LKC_Ext_Steps/T_%E7%88%B6%E8%BD%A8%E8%AE%BE%E7%BD%AERandomContainer_%E6%97%B6%E9%97%B4%E9%80%89%E5%8C%BA.lua</source>
-        <source main="main" file="LKC_Ext_Steps/T_父轨设置RandomContainer_时间选区（多个）.lua">https://github.com/XFeng111/ReaperScripts/raw/4770e42be652ddd809a8e79f1ebf0924866ce1dd/T_Scripts/LKC_Ext/LKC_Ext_Steps/T_%E7%88%B6%E8%BD%A8%E8%AE%BE%E7%BD%AERandomContainer_%E6%97%B6%E9%97%B4%E9%80%89%E5%8C%BA%EF%BC%88%E5%A4%9A%E4%B8%AA%EF%BC%89.lua</source>
-      </version>
       <version name="1.0.0" author="XFeng111" time="2026-05-03T17:02:11Z">
         <source main="main" file="T_LKC_Structure_Make.lua">https://github.com/XFeng111/ReaperScripts/raw/e5795eb2df3f2603a65845553317af77b7812cc1/T_Scripts/LKC_Ext/T_LKC_Structure_Make.lua</source>
         <source main="main" file="T_LKC_Structure.lua">https://github.com/XFeng111/ReaperScripts/raw/e5795eb2df3f2603a65845553317af77b7812cc1/T_Scripts/LKC_Ext/T_LKC_Structure.lua</source>
@@ -95,58 +68,5 @@
 {\pard \ql \f0 \sa180 \li0 \fi0 https://raw.githubusercontent.com/XFeng111/ReaperScripts/refs/heads/main/index.xml\par}
 {\pard \ql \f0 \sa180 \li0 \fi0 \outlinelevel0 \b \fs36 \u27426 ?\u36814 ?\u25237 ?\u21890 ?~\par}
 }
-]]></description>
-  </metadata>
-  <reapack name="cfillion_Hello world.lua" type="script" desc="Hello world">
-    <metadata>
-      <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
-{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
-\widowctrl\hyphauto
 
-{\pard \ql \f0 \sa180 \li0 \fi0 This is an example of a package file. It installs itself as a ReaScript that does nothing but show "Hello World!" in REAPER's scripting console.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 Packages may also include additional files specified using the @provides tag.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 This text is the documentation shown when using ReaPack's "About this package" feature. {\field{\*\fldinst{HYPERLINK "https://commonmark.org/"}}{\fldrslt{\ul
-Markdown
-}}}
- {\i formatting} is supported.\par}
-}
-
-      </metadata>
-      <version name="1.0" author="cfillion" time="2021-01-04T23:30:32Z">
-        <source main="main">https://github.com/cfillion/reapack-repository-template/raw/58a3e39ba95bd0f35846aa1f39aa4cb2574295e1/Example/cfillion_Hello%20world.lua</source>
-      </version>
-    </reapack>
-  </category>
-  <metadata>
-    <description><![CDATA[{\rtf1\ansi\deff0{\fonttbl{\f0 \fswiss Helvetica;}{\f1 Courier;}}
-{\colortbl;\red255\green0\blue0;\red0\green0\blue255;}
-\widowctrl\hyphauto
-
-{\pard \ql \f0 \sa180 \li0 \fi0 \b \fs36 ReaPack Repository Template\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 A template for GitHub-hosted ReaPack repositories with automated {\field{\*\fldinst{HYPERLINK "https://github.com/cfillion/reapack-index"}}{\fldrslt{\ul
-reapack-index
-}}}
- running from GitHub Actions.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 Replace the name of the repository in {\field{\*\fldinst{HYPERLINK "/index.xml"}}{\fldrslt{\ul
-index.xml
-}}}
- when using this template. This will be the name shown in ReaPack.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 \f1 <index version="1" name="Name of your repository here">\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 Replace the contents of this file ({\field{\*\fldinst{HYPERLINK "/README.md"}}{\fldrslt{\ul
-README.md
-}}}
-). This will be the text shown when using ReaPack's "About this repository" feature.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 reapack-index looks for package files in subfolders. The folder tree represents the package categories shown in ReaPack.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 Each package file is expected to begin with a metadata header. See {\field{\*\fldinst{HYPERLINK "https://github.com/cfillion/reapack-index/wiki/Packaging-Documentation"}}{\fldrslt{\ul
-Packaging Documentation
-}}}
- on reapack-index's wiki.\par}
-{\pard \ql \f0 \sa180 \li0 \fi0 The URL to import in ReaPack is {\field{\*\fldinst{HYPERLINK "https://github.com/cfillion/reapack-repository-template/raw/master/index.xml"}}{\fldrslt{\ul
-https://github.com/{\f1 <your username>}/{\f1 <repository name>}/raw/master/index.xml
-}}}
-.\par}
-}
-]]></description>
-    </metadata>
-  </reapack>
 </index>
