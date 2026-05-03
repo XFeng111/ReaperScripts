@@ -1,4 +1,4 @@
--- @version 1.0.1
+-- @version 1.0.0
 -- @author XFeng111
 -- @metapackage
 -- @provides
@@ -8,4 +8,4 @@
 --    [main] Rename/*.lua
 
 -- @changelog
---    + update T_Scripts_ReaPack
+--    + add T_Scripts_ReaPack
