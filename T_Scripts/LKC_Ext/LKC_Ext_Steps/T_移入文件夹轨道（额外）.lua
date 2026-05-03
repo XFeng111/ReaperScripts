@@ -3,7 +3,7 @@
 reaper.Undo_BeginBlock()
 
 -- 检测是否框选时间选区
-start_time, end_time = reaper.GetSet_LoopTimeRange(0, 0, 0, 0, 0)
+local start_time, end_time = reaper.GetSet_LoopTimeRange(false, false, 0, 0, false)
 if start_time == end_time then
     reaper.ShowMessageBox("请框选时间选区", "提示", 0)
     reaper.Undo_EndBlock("No time selection", -1)

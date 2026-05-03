@@ -4,7 +4,7 @@ reaper.Undo_BeginBlock()
 
 -- 辅助函数：获取时间选区
 local function get_time_selection()
-    return reaper.GetSet_LoopTimeRange(0, 0, 0, 0, 0)
+    return reaper.GetSet_LoopTimeRange(false, false, 0, 0, false)
 end
 
 -- 辅助函数：检查时间选区是否有效
@@ -232,7 +232,7 @@ clear_track_names(processed_tracks)
 local min_start_time, max_end_time = find_region_time_range(region_start_times, region_end_times)
 
 -- 设置时间选区到所有新创建的 region
-reaper.GetSet_LoopTimeRange(1, 1, min_start_time, max_end_time, 0)
+reaper.GetSet_LoopTimeRange(true, true, min_start_time, max_end_time, false)
 
 reaper.UpdateArrange()
 

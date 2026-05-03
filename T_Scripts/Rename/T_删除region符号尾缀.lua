@@ -3,7 +3,7 @@
 reaper.Undo_BeginBlock()
 
 -- 获取当前选中的时间选区
-local start_time, end_time = reaper.GetSet_LoopTimeRange(0, 0, 0, 0, 0)
+local start_time, end_time = reaper.GetSet_LoopTimeRange(false, false, 0, 0, false)
 
 -- 检查是否有时间选区
 if start_time == end_time then
@@ -57,18 +57,18 @@ for i = 0, num_markers + num_regions - 1 do
         local new_name = name:gsub("%.[%w]+$", "")
 
         -- 将光标移动到区域起始位置
-        reaper.SetEditCurPos(pos, 1, 0)
+        reaper.SetEditCurPos(pos, true, false)
 
         -- 运行指令 ID 为 40615
         reaper.Main_OnCommand(40615, 0)
 
         -- 使用 reaper.AddProjectMarker2 更新区域名称
-        reaper.AddProjectMarker2(0, 1, pos, rgnend, new_name, markrgnindexnumber, -1)
+        reaper.AddProjectMarker2(0, true, pos, rgnend, new_name, markrgnindexnumber, -1)
     end
 end
 
 -- 删除时间选区
-reaper.GetSet_LoopTimeRange(1, 0, 0, 0, 0)
+reaper.GetSet_LoopTimeRange(true, false, 0, 0, false)
 
 -- 更新项目视图
 reaper.UpdateArrange()

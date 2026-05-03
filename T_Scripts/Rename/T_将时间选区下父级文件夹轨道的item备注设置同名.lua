@@ -1,6 +1,6 @@
 --@noindex
 -- 获取当前时间选区
-start_time, end_time = reaper.GetSet_LoopTimeRange(0, 0, 0, 0, 0)
+local start_time, end_time = reaper.GetSet_LoopTimeRange(false, false, 0, 0, false)
 
 -- 检查是否有时间选区
 if start_time == end_time then
@@ -9,7 +9,7 @@ if start_time == end_time then
 end
 
 -- 获取所有轨道数量
-track_count = reaper.CountTracks(0)
+local track_count = reaper.CountTracks(0)
 
 -- 遍历所有轨道
 for i = 0, track_count - 1 do
