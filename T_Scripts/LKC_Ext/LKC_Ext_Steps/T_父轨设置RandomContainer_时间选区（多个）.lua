@@ -20,7 +20,7 @@ local function isTrackSetToRandomContainer(track)
     local fx_count = reaper.TrackFX_GetCount(track)
     for j = 0, fx_count - 1 do
         local fx_name = ""
-        local _, fx_name = reaper.TrackFX_GetFXName(track, j, fx_name, 256)
+        local _, fx_name = reaper.TrackFX_GetFXName(track, j)
         if fx_name:find("LKC Random container") then
             return true
         end

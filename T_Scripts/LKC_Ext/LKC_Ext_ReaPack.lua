@@ -1,4 +1,4 @@
--- @version 1.0.1
+-- @version 1.0.0
 -- @author XFeng111
 -- @metapackage
 -- @provides
@@ -7,4 +7,4 @@
 --    [main] LKC_Ext_Steps/*.lua
 
 -- @changelog
---    + update LKC_Ext ReaPack
+--    + add LKC_Ext ReaPack

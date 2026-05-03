@@ -1,7 +1,7 @@
 --@noindex
 -- 获取选中的时间范围
 local function get_selected_time_range()
-    return reaper.GetSet_LoopTimeRange(0, 0, 0, 0, 0)
+    return reaper.GetSet_LoopTimeRange(false, false, 0, 0, false)
 end
 
 -- 检查是否框选了时间选区
@@ -41,7 +41,7 @@ local function group_items(start_time, end_time)
         if item and is_item_in_selected_range(item, start_time, end_time) then
             local take = reaper.GetActiveTake(item)
             if take then
-                local file_path = reaper.GetMediaSourceFileName(reaper.GetMediaItemTake_Source(take), "")
+                local file_path = reaper.GetMediaSourceFileName(reaper.GetMediaItemTake_Source(take))
                 local base_name = get_base_name(file_path)
                 if base_name then
                     groups[base_name] = groups[base_name] or {}
@@ -137,7 +137,7 @@ end
 
 -- 设置新的时间选区
 local function set_new_time_range(new_start_time, new_end_time)
-    reaper.GetSet_LoopTimeRange(1, 1, new_start_time, new_end_time, 1)
+    reaper.GetSet_LoopTimeRange(false, false, new_start_time, new_end_time, false)
 end
 
 -- 主函数

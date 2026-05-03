@@ -51,7 +51,7 @@ for i = 0, num_markers + num_regions - 1 do
                 local track = reaper.GetMediaItem_Track(item)
                 if track and not tracks[track] then
                     tracks[track] = true  -- 标记轨道已处理
-                    local _, track_name = reaper.GetTrackName(track, "")
+                    local _, track_name = reaper.GetTrackName(track)
                     table.insert(track_names, track_name)
                 end
             end

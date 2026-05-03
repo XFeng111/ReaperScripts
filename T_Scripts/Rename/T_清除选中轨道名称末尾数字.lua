@@ -5,7 +5,7 @@ for i = 0, num_selected_tracks - 1 do
     local track = reaper.GetSelectedTrack(0, i)
     if track then
         -- 获取轨道名称
-        local _, current_name = reaper.GetTrackName(track, "")
+        local _, current_name = reaper.GetTrackName(track)
         
         -- 删除末尾的 "_数字"
         local new_name = current_name:gsub("_%d+$", "")
